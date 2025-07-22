@@ -5,12 +5,14 @@ import AllTheBooks from "./components/AllTheBooks";
 
 function App() {
   return (
-    <>
+    <div className="d-flex flex-column min-vh-100">
       <MyNav />
       <Welcome />
-      <AllTheBooks />
+      <div className="flex-grow-1">
+        <AllTheBooks />
+      </div>
       <Footer />
-    </>
+    </div>
   );
 }
 

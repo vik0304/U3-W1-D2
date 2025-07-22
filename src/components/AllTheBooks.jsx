@@ -54,7 +54,6 @@ class AllTheBooks extends Component {
               </Dropdown.Menu>
             </Dropdown>
           </Col>
-          ;
         </Row>
         <Row className="g-3 my-3">
           {this.state.activeCategory === categories[0] ? (
